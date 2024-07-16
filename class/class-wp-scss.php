@@ -15,6 +15,9 @@ class Wp_Scss {
   /** @var string - path to cache directory for css files */
   private $cache;
 
+  /** @var string - path to cache_file directory for css files */
+  private $cache_file;
+
   /** @var array - catches errors from compile */
   private $compile_errors;
 
